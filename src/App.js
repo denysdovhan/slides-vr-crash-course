@@ -1,21 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  Deck, Slide, Text
+} from 'spectacle';
 
-class App extends Component {
+// Import theme
+import createTheme from 'spectacle/lib/themes/default';
+
+const colors = {
+  // primary: "white",
+  // secondary: "#3F4042",
+  // tertiary: "#35C9DD",
+  // quartenary: "#97CE4C",
+};
+
+const fonts = {
+  primary: {
+    name: 'Fira Sans',
+    googleFont: true,
+    styles: ['300', '700']
+  },
+  secondary: 'Helvetica'
+};
+
+const theme = createTheme(colors, fonts)
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Deck transition={['fade']} transitionDuration={500} theme={theme}>
+        <Slide>
+          <Text>Slide 1</Text>
+        </Slide>
+        <Slide>
+          <Text>Slide 2</Text>
+        </Slide>
+      </Deck>
     );
   }
 }
-
-export default App;
