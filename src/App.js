@@ -17,7 +17,7 @@ const colors = {
   primary: "#F5FBEF",
   secondary: "#19647E",
   tertiary: "#EF233C",
-  quartenary: "#2B2D42",
+  quarternary: "#2B2D42",
   // colors
   gunmental: "#2B2D42",
   alice: "#F4FAFF",
