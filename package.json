@@ -1,7 +1,9 @@
 {
-  "name": "slides-vr-crash-course",
-  "version": "0.1.0",
   "private": true,
+  "name": "slides-vr-crash-course",
+  "version": "0.0.0",
+  "description": "Slides for my talk about VR",
+  "author": "Denys Dovhan <denysdovhan@gmail.com> (http://denysdovhan.com)",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
