@@ -151,9 +151,21 @@ export default class App extends Component {
           <Heading size={2}>Де брати VR контент?</Heading>
           <Appear>
             <List>
-              <ListItem>Within</ListItem>
-              <ListItem>YouTube</ListItem>
-              <ListItem>PlayMarket/AppStore</ListItem>
+              <ListItem>
+                <Link href="https://with.in" textColor="secondary">
+                  Within
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href="https://www.youtube.com/channel/UCzuqhhs6NWbgTzMuM09WKDQ" textColor="secondary">
+                  YouTube
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href="https://play.google.com/store" textColor="secondary">
+                  PlayMarket/AppStore
+                </Link>
+              </ListItem>
               <Appear>
                 <ListItem>PornHub</ListItem>
               </Appear>
@@ -215,9 +227,21 @@ export default class App extends Component {
         <Slide>
           <Heading size={2}>Матеріали про WebVR</Heading>
           <List>
-            <ListItem>w3c.github.io/webvr</ListItem>
-            <ListItem>webvr.rocks</ListItem>
-            <ListItem>webvr.info</ListItem>
+            <ListItem>
+              <Link href="https://w3c.github.io/webvr" textColor="secondary">
+                w3c.github.io/webvr
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://webvr.rocks" textColor="secondary">
+                webvr.rocks
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://webvr.info" textColor="secondary">
+                webvr.info
+              </Link>
+            </ListItem>
           </List>
         </Slide>
 
@@ -242,7 +266,11 @@ export default class App extends Component {
         </Slide>
 
         <Slide>
-          <Heading fit textColor="secondary">googlevr/webvr-polyfill</Heading>
+          <Heading fit textColor="secondary">
+            <Link href="https://github.com/googlevr/webvr-polyfill" textColor="secondary">
+              googlevr/webvr-polyfill
+            </Link>
+          </Heading>
           <Appear>
             <Text margin="1rem auto">Визначає VRDisplay в залежності від характеристик браузера.</Text>
           </Appear>
@@ -357,9 +385,21 @@ export default class App extends Component {
         <Slide>
           <Heading size={2} textSize="5rem">Матеріали про A-Frame</Heading>
           <List>
-            <ListItem>aframe.io</ListItem>
-            <ListItem>aframe.io/aframe-school</ListItem>
-            <ListItem>aframevr/awesome-aframe</ListItem>
+            <ListItem>
+              <Link href="https://aframe.io" textColor="secondary">
+                aframe.io
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://aframe.io/aframe-school" textColor="secondary">
+                aframe.io/aframe-school
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://aframevr/awesome-aframe" textColor="secondary">
+                aframevr/awesome-aframe
+              </Link>
+            </ListItem>
           </List>
         </Slide>
 
@@ -408,8 +448,16 @@ AppRegistry.registerComponent('WelcomeToVR', () => WelcomeToVR);
         <Slide>
           <Heading size={2}>Матеріали про ReactVR</Heading>
           <List>
-            <ListItem>facebook.github.io/react-vr</ListItem>
-            <ListItem>egghead.io/courses/build-virtual-reality-experiences-using-react-vr</ListItem>
+            <ListItem>
+              <Link href="https://facebook.github.io/react-vr" textColor="secondary">
+                facebook.github.io/react-vr
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://egghead.io/courses/build-virtual-reality-experiences-using-react-vr" textColor="secondary">
+                egghead.io/courses/build-virtual-reality-experiences-using-react-vr
+              </Link>
+            </ListItem>
           </List>
         </Slide>
 
@@ -441,10 +489,26 @@ AppRegistry.registerComponent('WelcomeToVR', () => WelcomeToVR);
         <Slide>
           <Heading size={2}>Більше матеріалів про VR</Heading>
           <List>
-            <ListItem>experiments.withgoogle.com/webvr</ListItem>
-            <ListItem>vr.google.com</ListItem>
-            <ListItem>mozvr.com</ListItem>
-            <ListItem>wizztjh/awesome-WebVR</ListItem>
+            <ListItem>
+              <Link href="https://experiments.withgoogle.com/webvr" textColor="secondary">
+                experiments.withgoogle.com/webvr
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://vr.google.com" textColor="secondary">
+                vr.google.com
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://mozvr.com" textColor="secondary">
+                mozvr.com
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://github.com/wizztjh/awesome-WebVR" textColor="secondary">
+                wizztjh/awesome-WebVR
+              </Link>
+            </ListItem>
           </List>
         </Slide>
 
