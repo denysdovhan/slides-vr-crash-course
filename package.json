@@ -5,6 +5,7 @@
   "description": "Slides for my talk about VR",
   "author": "Denys Dovhan <denysdovhan@gmail.com> (http://denysdovhan.com)",
   "dependencies": {
+    "aframe": "^0.6.1",
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
