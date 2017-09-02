@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "Slides for my talk about VR",
   "author": "Denys Dovhan <denysdovhan@gmail.com> (http://denysdovhan.com)",
+  "homepage": "https://denysdovhan.com/slides-vr-crash-course",
   "dependencies": {
     "aframe": "^0.6.1",
     "gh-pages": "^1.0.0",
