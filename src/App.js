@@ -15,6 +15,8 @@ import githubProfile from './assets/githubProfile.png';
 import intro from './assets/intro.gif';
 import lambdabooks from './assets/lambdabooks.png';
 import peopleSenses from './assets/people-senses.png';
+import pornGif  from './assets/porn.gif';
+import vrKits from './assets/vr-kits-bg.gif';
 import googleCardboard from './assets/google-cardboard.png';
 import miVr from './assets/mi-vr.png';
 import vrHeadsetsTable from './assets/vr-headsets-table.png';
@@ -65,10 +67,10 @@ export default class App extends Component {
         </Slide>
 
         <Slide bgImage={intro} bgDarken={0.5}>
-          <Heading fit caps textColor="alice">A crash-course into</Heading>
+          <Heading fit caps textColor="primary">A crash-course into</Heading>
           <Heading fit caps>virtual</Heading>
           <Heading fit caps>reality</Heading>
-          <Heading fit caps textColor="alice">for web-developers</Heading>
+          <Heading fit caps textColor="primary">for web-developers</Heading>
         </Slide>
 
         <Slide>
@@ -86,6 +88,14 @@ export default class App extends Component {
         </Slide>
 
         <Slide>
+          <Heading size={2}>Індустрія дала добро</Heading>
+        </Slide>
+
+        <Slide>
+          <Image src={pornGif} height="90vh" margin="-15vh auto 0"/>
+        </Slide>
+
+        <Slide>
           <Heading size={2}>Як створити віртуальну реальність?</Heading>
         </Slide>
 
@@ -94,7 +104,7 @@ export default class App extends Component {
           <Heading size={2}>Обманути органи чуття</Heading>
         </Slide>
 
-        <Slide>
+        <Slide bgImage={vrKits} bgDarken={0.75}>
           <Heading>Шоломи віртуальної реальності</Heading>
         </Slide>
 
@@ -359,7 +369,6 @@ export default class App extends Component {
             <ListItem>React-стек</ListItem>
             <ListItem>Базується на компонентному підході</ListItem>
             <ListItem>Має вбудовані React-компоненти</ListItem>
-            <ListItem>Включає в себе поліфіл</ListItem>
           </List>
         </Slide>
 
