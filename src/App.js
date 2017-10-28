@@ -10,8 +10,9 @@ import createTheme from 'spectacle/lib/themes/default';
 import './assets/ghtheme.css';
 
 // Import images
-import ternopil from './assets/ternopil.jpg';
-import githubProfile from './assets/githubProfile.png';
+import kharkivJsBg from './assets/kharkivjs-bg.jpg';
+import kharkivJsLogo from './assets/kharkivjs-logo.png';
+import githubProfile from './assets/github-profile.png';
 import intro from './assets/intro.gif';
 import lambdabooks from './assets/lambdabooks.png';
 import peopleSenses from './assets/people-senses.png';
@@ -50,8 +51,9 @@ export default class App extends Component {
   render() {
     return (
       <Deck transition={['fade']} transitionDuration={500} theme={theme} progress="bar">
-        <Slide bgImage={ternopil} bgDarken={0.5}>
-          <Heading textColor="white">Hello, Ternopil!</Heading>
+        <Slide bgImage={kharkivJsBg} bgDarken={0.5}>
+          <Image src={kharkivJsLogo}/>
+          <Heading textColor="white" margin="3rem auto 0">Hello, KharkivJS!</Heading>
         </Slide>
 
         <Slide bgColor="white">
