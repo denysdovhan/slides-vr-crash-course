@@ -21,6 +21,7 @@ import vrKits from './assets/vr-kits-bg.gif';
 import googleCardboard from './assets/google-cardboard.png';
 import miVr from './assets/mi-vr.png';
 import vrHeadsetsTable from './assets/vr-headsets-table.png';
+import streetView from './assets/street-view-logo.png';
 import webVR from './assets/webvr-bg.gif';
 import webVRSupportChrome from './assets/webvr-support-chrome.png';
 import webVRSupportFirefox from './assets/webvr-support-firefox.png';
@@ -212,6 +213,7 @@ export default class App extends Component {
         </Slide>
 
         <Slide>
+          <Image src={streetView} width="30%"/>
           <Heading size={2}>Google Street View</Heading>
         </Slide>
 
