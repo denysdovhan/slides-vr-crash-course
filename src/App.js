@@ -338,6 +338,7 @@ export default class App extends Component {
 
         <Slide>
           <Heading size={2}>Базується на HTML</Heading>
+          <Text>та entity-component-system</Text>
           <CodePane
             lang="html"
             textSize="1.8rem"
@@ -349,7 +350,7 @@ export default class App extends Component {
           />
         </Slide>
 
-        <Slide>
+        <Slide bgColor="#ECECEC">
           <Image src={aFrameScene} width="100%"/>
         </Slide>
 
