@@ -29,6 +29,7 @@ import webVRSupportEdge from './assets/webvr-support-edge.png';
 import webVRSupportChromium from './assets/webvr-support-chromium.png';
 import webVRFrameworks from './assets/webvr-frameworks-bg.gif';
 import aFrameScene from './assets/a-frame-scene-example.jpg';
+import qr from './assets/qr.png';
 
 const colors = {
   primary: "white",
@@ -74,6 +75,15 @@ export default class App extends Component {
           <Heading fit caps>virtual</Heading>
           <Heading fit caps>reality</Heading>
           <Heading fit caps textColor="primary">for web-developers</Heading>
+        </Slide>
+
+        <Slide>
+          <Link href="#">
+            <Image src={qr} width="50%"/>
+            <Text textSize="2rem">
+              denysdovhan.com/slides-vr-crash-course
+            </Text>
+          </Link>
         </Slide>
 
         <Slide>
@@ -538,10 +548,11 @@ AppRegistry.registerComponent('WelcomeToVR', () => WelcomeToVR);
           <Heading>
             Дякую за увагу!
           </Heading>
-          <Text margin="1rem auto" lineHeight={1.2}>2 Sep 2017</Text>
+          <Text margin="1rem auto" lineHeight={1.2}>28 Oct 2017</Text>
           <Link href="#">
-            <Text margin="6em auto" textSize="2rem">
-              Slides: denysdovhan.com/slides-vr-crash-course
+            <Image src={qr}/>
+            <Text textSize="2rem">
+              denysdovhan.com/slides-vr-crash-course
             </Text>
           </Link>
         </Slide>
