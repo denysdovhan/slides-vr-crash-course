@@ -97,6 +97,16 @@ export default class App extends Component {
           <Image src={pornGif} height="90vh" margin="-15vh auto 0"/>
         </Slide>
 
+        <Slide bgColor="secondary">
+          <BlockQuote>
+            <Quote textSize="2.5rem">
+              разберём подробно мир порно<br />
+              так как порно для современности опорно
+            </Quote>
+            <Cite>Кровосток - Порно</Cite>
+          </BlockQuote>
+        </Slide>
+
         <Slide>
           <Heading size={2}>Як створити віртуальну реальність?</Heading>
         </Slide>
