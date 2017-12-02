@@ -10,9 +10,9 @@ import createTheme from 'spectacle/lib/themes/default';
 import './assets/ghtheme.css';
 
 // Import images
-import kharkivJsBg from './assets/kharkivjs-bg.jpg';
-import kharkivJsLogo from './assets/kharkivjs-logo.png';
 import githubProfile from './assets/github-profile.png';
+import chernivtsijsBg from './assets/chernivtsijs-bg.jpg'
+import chernivtsijsLogo from './assets/chernivtsijs-logo.png';
 import intro from './assets/intro.gif';
 import lambdabooks from './assets/lambdabooks.png';
 import peopleSenses from './assets/people-senses.png';
@@ -53,13 +53,19 @@ export default class App extends Component {
   render() {
     return (
       <Deck transition={['fade']} transitionDuration={500} theme={theme} progress="bar">
-        <Slide bgImage={kharkivJsBg} bgDarken={0.5}>
-          <Image src={kharkivJsLogo}/>
-          <Heading textColor="white" margin="3rem auto 0">Hello, KharkivJS!</Heading>
+        <Slide bgColor="white" bgDarken={0.5}>
+          <Heading margin="3rem auto 0">Hello, IT Weekend!</Heading>
         </Slide>
 
         <Slide bgColor="white">
           <Image src={githubProfile} width="100%" margin="-4rem auto 0"/>
+        </Slide>
+
+        <Slide bgImage={chernivtsijsBg} bgDarken={0.5}>
+          <Image src={chernivtsijsLogo} width="100%"/>
+          <Text textColor="white" margin="5rem 0 0">
+            chernivtsi.js.org
+          </Text>
         </Slide>
 
         <Slide bgColor="#EAF0CE">
@@ -193,13 +199,6 @@ export default class App extends Component {
                 <ListItem>PornHub</ListItem>
               </Appear>
             </List>
-          </Appear>
-        </Slide>
-
-        <Slide>
-          <Heading size={2}>Що з пітримкою iPhone?</Heading>
-          <Appear>
-            <Text textSize="3rem">P.S: Все сумно.</Text>
           </Appear>
         </Slide>
 
